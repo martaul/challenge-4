@@ -1,0 +1,175 @@
+ /* Global */
+ * {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+  }
+
+h1, h2{
+    font-weight: 700;
+    font-style: none;
+    color: black;
+}
+
+a:link, a:visited {
+    font-weight: 400;
+    text-decoration: none;
+    color: #222222;
+    
+}
+p {
+    font-weight: 300;
+    font-style: none;
+    color: black;
+
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.nav-link{
+    margin-right: 32px;
+}
+
+.nav-link:hover{
+    font-weight: 600;
+}
+
+#tombol{
+    border-radius: 2px;
+    background: #5CB85F;
+    color: white;
+}
+#tombol:hover{
+    background: #11582C;
+    color: white;
+}
+
+.hero , .service, .usp, .testi, .faq, .footer{
+    padding-top: 10%;
+}
+
+.faq  .accordion-header {
+    margin-bottom: 5px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+}
+
+.faq .accordion-item{
+    border: none;
+}
+
+.banner{
+    margin-top: 10%;
+    background: #0D28A6;
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+
+
+.footer .sosmed-icon{
+    margin-right: 5%;
+    width:32px;
+}
+
+.owl-item .row {
+    background-color:#F1F3FF;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.owl-item .rating-stars{
+    padding-bottom: 14px;
+}
+
+.btns{
+    display: table;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.customNextBtn, .customPreviousBtn{
+    border: 1px solid #c4c4c4;
+    width: 32px;
+    height: 32px;
+    /* padding: 1rem; */
+    border-radius: 50%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.customNextBtn:hover, .customPreviousBtn:hover {
+    background-color: #5cb85f;
+    border: none;
+    
+}
+
+.customNextBtn:hover span, .customPreviousBtn:hover span {
+    color: white;
+    display: block;
+}
+.filter-form #date {
+    height: 34px;
+}
+.customNextBtn span, .customPreviousBtn span{
+    padding-top: 3px;
+    padding-left: 2px;
+    display: inline-block;
+
+}
+#user{
+    width: 25%;
+}
+@media screen and (max-width: 430px) {
+    nav{
+        padding-right: 0px;
+
+    }
+    .hero , .service, .usp, .testi{
+        padding-top: 15%;
+    }
+    .hero, .service{
+        padding-right: 0px;
+    }
+    .hero .hero-gambar{
+        padding-top: 5%;
+    }
+    .hero{
+        padding-left: 0px;
+    }
+    .service-gambar{
+        padding-bottom: 5%;
+    }
+    .list-check .row{
+        margin-top: 10px;
+    }
+    #card-usp{
+        margin-top: 2%;
+    }
+    .owl-item .rating-stars{
+        margin: auto;
+        padding-bottom: 14px;
+        padding-top: 14px;
+    }
+    .judul-banner{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #user{
+        width: 40%;
+    }
+    .footer .sosmed-icon{
+        width: 20px;
+        margin-right: 5px;
+    }
+}
